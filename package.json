@@ -7,18 +7,17 @@
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "browserslist": {
-    "development": [
-      "last 1 chrome version"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/thlorenz/pixi-typescript.git"
   },
   "homepage": "https://github.com/thlorenz/pixi-typescript",
   "dependencies": {
-    "pixi.js": "~4.8.2"
+    "@tweenjs/tween.js": "^17.4.0",
+    "@types/tweenjs": "^1.0.0",
+    "es6-tween": "^5.5.10",
+    "pixi.js": "~4.8.2",
+    "tween.js": "^16.6.0"
   },
   "devDependencies": {
     "@types/pixi.js": "~4.8.3",
@@ -27,13 +26,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "Thorsten Lorenz",
-    "email": "thlorenz@gmx.de",
-    "url": "http://thlorenz.com"
-  },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/thlorenz/pixi-typescript/blob/master/LICENSE"
+    "name": "Andry"
   },
   "engine": {
     "node": ">=8"
